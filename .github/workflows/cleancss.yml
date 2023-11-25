@@ -1,0 +1,20 @@
+name: CleanCSS Workflow
+
+on:
+  push:
+    branches:
+      - main  # adjust the branch name if needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install CleanCSS
+      run: npm install -g clean-css-cli
+
+    - name: Run CleanCSS
+      run: cleancss -o css/bootstrap.min.css css/bootstrap/bootstrap.css
