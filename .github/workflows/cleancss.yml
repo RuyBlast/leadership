@@ -16,6 +16,9 @@ jobs:
     - name: Install CleanCSS
       run: npm install -g clean-css-cli
 
+    - name: Set Write Permissions
+      run: chmod -R +w css/
+
     - name: Run CleanCSS
       run: cleancss -o css/bootstrap.min.css css/bootstrap/bootstrap.css
 
