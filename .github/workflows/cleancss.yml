@@ -18,3 +18,10 @@ jobs:
 
     - name: Run CleanCSS
       run: cleancss -o css/bootstrap.min.css css/bootstrap/bootstrap.css
+
+      - name: Debug file paths
+       run: |
+         ls -la css/bootstrap
+         pwd
+         whoami
+         env
