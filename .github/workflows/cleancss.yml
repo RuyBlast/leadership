@@ -24,7 +24,7 @@ jobs:
 
     - name: Debug file paths
       run: |
-        ls -la css/bootstrap
+        ls -la css/
         pwd
         whoami
         env
