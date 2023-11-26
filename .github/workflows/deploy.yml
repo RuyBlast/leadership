@@ -37,7 +37,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
-          name: production-files
+          name: .
           path: .
 
       - name: Deploy to GitHub Pages
