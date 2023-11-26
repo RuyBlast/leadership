@@ -1040,3 +1040,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #ccc;
   font-style: italic;
 }
+
+/* Make landing picture a bit transparent on small screens for lisibility */
+@media (max-width: 991px) {
+  #home-section img {
+    opacity: 0.5;
+  }
+}

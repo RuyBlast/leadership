@@ -8,3 +8,11 @@
 @import "site-navbar";
 /* Blocks */
 @import "site-blocks";
+
+
+/* Make landing picture a bit transparent on small screens for lisibility */
+@media (max-width: 991px) {
+  #home-section img {
+    opacity: 0.5;
+  }
+}
