@@ -16,3 +16,9 @@
     opacity: 0.5;
   }
 }
+
+/* Center last item(s) */
+.person, .testimonial-box {
+  margin-right: auto;
+  margin-left: auto;
+}
