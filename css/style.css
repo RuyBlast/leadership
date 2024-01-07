@@ -1053,6 +1053,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
 }
 
+#contact-section p {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /** Bootstrap overwrites **/
 .site-navbar .site-logo {
   line-height: 0.6; /* fix overlapping words issue on smartphones */
